@@ -1,6 +1,6 @@
 # Chef-Project-Nginx-NodeJS-MySQL
 
-Sure! Here are examples of Chef cookbooks to manage different components of a web application stack on Amazon Linux 2023. We will create three cookbooks: one for setting up Nginx as a web server, one for deploying a Node.js application, and one for setting up MySQL as the database server.
+Here are Chef cookbooks to manage different components of a web application stack on Amazon Linux 2023. We will create three cookbooks: one for setting up Nginx as a web server, one for deploying a Node.js application, and one for setting up MySQL as the database server.
 
 ### Cookbook 1: Nginx
 
