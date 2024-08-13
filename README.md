@@ -168,6 +168,11 @@ http {
 }
 ```
 
+###  Run receipe
+```
+sudo chef-client --local-mode --runlist recipe[nginx::default]
+```
+
 #### Step 4: Upload the Nginx Cookbook to the Chef Server
 ```bash
 knife cookbook upload nginx
