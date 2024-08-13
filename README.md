@@ -87,7 +87,8 @@ sudo yum install libxcrypt-compat -y
 
 #### Step 1: Generate the Nginx Cookbook
 ```bash
-chef generate cookbook nginx
+chef generate cookbook cookbooks/nginx
+cd nginx
 ```
 
 #### Step 2: Edit the default Recipe (nginx/recipes/default.rb)
